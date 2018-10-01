@@ -16,7 +16,7 @@ public class FlyweightFactory {
             return (Flyweight) flyweights.get(key);
         }
         else {
-            Flyweight fw = new ConcreteFlyweight();
+            Flyweight fw = new ConcreteFlyweight("");
             flyweights.put(key,fw);
             return fw;
         }
