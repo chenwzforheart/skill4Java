@@ -12,7 +12,7 @@ public class Client {
     private MulticastSocket socket;
 
     public Client(String ip, int port) throws IOException {
-        socket = new MulticastSocket();
+        socket = new MulticastSocket(port);
         socket.joinGroup(InetAddress.getByName(ip));
     }
 

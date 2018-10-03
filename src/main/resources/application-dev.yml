@@ -1,11 +1,7 @@
 spring:
-  redis:
-    host: localhost
-    port: 6379
-    database: 0
+  datasource:
+    driver-class-name: org.h2.Driver
+    # url: jdbc:h2:~/notice_sit_db  # 文件模式
+    url: jdbc:h2:mem:notice_sit_db # 内存模式
+    username: sa
     password:
-    pool:
-      max-active: 8
-      max-idle: 8
-      max-wait: -1
-      min-idle: 0
