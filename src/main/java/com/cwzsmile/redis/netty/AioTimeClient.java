@@ -3,8 +3,7 @@ package com.cwzsmile.redis.netty;
 /**
  * Created by Administrator on 2018/10/4 0004.
  */
-public class AioTimeServer {
-
+public class AioTimeClient {
     public static void main(String[] args) {
         int port = 8080;
         if (args != null && args.length > 0) {
@@ -14,8 +13,6 @@ public class AioTimeServer {
                 e.printStackTrace();
             }
         }
-
-        AsyncTimeServerHandler timeServer = new AsyncTimeServerHandler(port);
-        new Thread(timeServer,"AIO-AsyncTimeServerHandler-001").start();
+        new Thread(new AsyncTimeClientHandler("127.0.0.1",port),"AIO-AsyncTimeClientHandler-001").start();
     }
 }
