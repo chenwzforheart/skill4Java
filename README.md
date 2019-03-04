@@ -1,2 +1,2 @@
-# base-redis
-SDR basic opeations
+# base-skill
+
