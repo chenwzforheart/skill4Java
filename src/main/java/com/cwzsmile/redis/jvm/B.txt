@@ -1,0 +1,17 @@
+public int get3();
+    Code:
+       0: iconst_0
+       1: istore_1
+       2: iload_1
+       3: iinc          1, 1
+       6: istore_2
+       7: iinc          1, 1
+      10: iload_2
+      11: ireturn
+      12: astore_3
+      13: iinc          1, 1
+      16: aload_3
+      17: athrow
+    Exception table:
+       from    to  target type
+           2     7    12   any
