@@ -28,3 +28,25 @@
 ## 7.树结构解析
 - [二叉平衡树，B+树](https://blog.csdn.net/u011240877/article/details/80490663)
 - [B+树，B*树](https://blog.csdn.net/pengzhisen123/article/details/79927377)
+
+## 8.JVM调优工具
+- [JVM监控](https://blog.csdn.net/xybelieve1990/article/details/53516437)
+- jvisualvm，jps，jinfo。查看和调整虚拟机参数
+- jmap，jhat。生成heap dump文件
+ 还阔以使用-XX:+HeapDumpOnOutOfMemoryError参数来让虚拟机出现OOM的时候·自动生成dump文件。
+- jstat。查看JVM运行时状态信息的命令
+- jstack。查看线程快照
+
+        NEW,未启动的。不会出现在Dump中。
+        
+        RUNNABLE,在虚拟机内执行的。
+        
+        BLOCKED,受阻塞并等待监视器锁。
+        
+        WATING,无限期等待另一个线程执行特定操作。
+        
+        TIMED_WATING,有时限的等待另一个线程的特定操作。
+        
+        TERMINATED,已退出的。
+
+ - [线程状态示意图](线程状态图.jpg)
