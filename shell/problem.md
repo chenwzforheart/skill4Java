@@ -21,6 +21,10 @@
 - ![类加载过程](./类加载-0.png)
 - ![类加载过程](./类加载-1.png)
 
-## 6.树结构解析
+## 6.JVM内存模型
+- ![内存模型图](./JVM内存模型.png)
+- ![方法区示意图](./方法区示意图.png)
+
+## 7.树结构解析
 - [二叉平衡树，B+树](https://blog.csdn.net/u011240877/article/details/80490663)
 - [B+树，B*树](https://blog.csdn.net/pengzhisen123/article/details/79927377)
