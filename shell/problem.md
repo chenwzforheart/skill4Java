@@ -20,3 +20,7 @@
 - 双亲机制：尝试加载类时会先请求双亲，请求失败则会自己加载
 - ![类加载过程](./类加载-0.png)
 - ![类加载过程](./类加载-1.png)
+
+## 6.树结构解析
+- [二叉平衡树，B+树](https://blog.csdn.net/u011240877/article/details/80490663)
+- [B+树，B*树](https://blog.csdn.net/pengzhisen123/article/details/79927377)
