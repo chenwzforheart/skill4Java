@@ -54,6 +54,13 @@
 ## 9.CMS执行过程触发两次STW
 - ![说明](./CMS执行示意图.png)
 
+- 首先要搞清楚G1垃圾回收的过程
+- 主要分为下面4个步骤：
+- 初始标记（Initial Marking）           由于常规标记对象是否直接关联到GC roots，过程简单，停顿时间短
+- 并发标记（Concurrent Marking） 由于可达性性分析，存在较长停顿
+- 最终标记（Final Marking）           由于把并发标记时漏掉的那部分垃圾内存标记起来，比较少，停顿时间短
+- 筛选回收（Live Data Couting and Evacuation）  对标记后的垃圾内存进行整理，按指定计划进行回收。
+
 ## 10.接口限流处理，分布式环境下
 -
 -
@@ -63,4 +70,10 @@
 - b.方法区中的类静态属性引用的对象。
 - c.方法区中的常量引用的对象。
 - d.本地方法栈中JNI本地方法的引用对象。
-- [图示说明](https://yq.aliyun.com/articles/91017?utm_campaign=wenzhang&utm_medium=article&utm_source=QQ-qun&2017531&utm_content=m_22117)
+- [图示说明](https://yq.aliyun.com/articles/91017)
+
+## 12.什么时候触发GC（MinorGC，MajorGC，FullGC）
+- [不同回收类型](https://blog.csdn.net/E01014165/article/details/52249104)
+- 回收为什么会停顿，JVM里面使用了一种叫可达性分析的技术来枚举根节点，可达性分析过程中，
+是必须要求分析过程中树结构是不变的，也就是一致的。
+这意味着这个过程中，当前JAVA进程必须暂停，这就是停顿的根本原因。
