@@ -53,3 +53,14 @@
  
 ## 9.CMS执行过程触发两次STW
 - ![说明](./CMS执行示意图.png)
+
+## 10.接口限流处理，分布式环境下
+-
+-
+
+## 11.可作为GC root的对象
+- a.java虚拟机栈(栈帧中的本地变量表)中的引用的对象。
+- b.方法区中的类静态属性引用的对象。
+- c.方法区中的常量引用的对象。
+- d.本地方法栈中JNI本地方法的引用对象。
+- [图示说明](https://yq.aliyun.com/articles/91017?utm_campaign=wenzhang&utm_medium=article&utm_source=QQ-qun&2017531&utm_content=m_22117)
