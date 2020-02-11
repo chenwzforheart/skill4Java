@@ -1,0 +1,5 @@
+p.menu {text-align: left;color:red;background-color: black;}
+p.mainContent {text-align: center;color: black;background-color: white;}
+p.sideContent {text-align: right;color:yellow;background-color: white;}
+
+p {border:thick outset grey;margin :10px;padding:2em;}

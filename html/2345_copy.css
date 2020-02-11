@@ -1,0 +1,346 @@
+body {
+    font:12px/1.5 Arial,\5B8B\4F53,Helvetica;
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    height: 29px;
+    border-bottom:1px solid #d0d5db;
+}
+
+.top-in{
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 0;
+}
+
+.top-left{
+    position: absolute;
+    width: 360px;
+    margin: 0;
+}
+
+.fred {
+    width:94px;
+    height: 20px;
+    border:1px solid #cdcdcd;
+    padding-left: 7px;
+    float: left;
+}
+
+.top-left a {
+    color: red;
+    float: left;
+}
+
+ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-right li{
+    float: right;
+}
+
+.theme {
+    height: 468px;
+    width: 100%;
+    background: url(./theme_w.jpg) center no-repeat;
+    z-index: -1;
+    position: absolute;
+    top:0;
+}
+
+.weather {
+    height: 60px;
+}
+
+.search_bk {
+    height: 100px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.search {
+    position: relative;
+    left: 0;
+    width: 636px;
+    margin: 0 auto;
+}
+
+.next {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background:#e6f2fe;
+    z-index: 1;
+}
+
+.content {
+    width: 1190px;
+    z-index: 1;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sel {
+    position: relative;
+    width: 636px;
+}
+
+.sel a{
+    color: black;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: "\20";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.sel li{
+    width:42px;
+    margin-right: 13px;
+    float: left;
+}
+
+.search_in {
+    float: left;
+    width: 100%;
+}
+
+.sch_inbox {
+    float: left;
+    width: 535px;
+    height: 34px;
+    border:1px solid #338bf9;
+}
+
+.sch_inbox input {
+    float: left;
+    width: 535px;
+    height: 34px;
+    position: relative;
+    float: left;
+    padding-left: 5px;
+    border: 0 none;
+}
+
+
+.sch_btn {
+    background-color: #38f;
+    width: 98px;
+    height: 36px;
+    float: left;
+    cursor: pointer;
+    border: 0 none;
+}
+
+.sch_logo {
+    float: left;
+    width: 200px;
+    margin-top: -4px;
+    margin-left: -210px;
+}
+
+
+.top10{
+    background-color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.top10_center {
+    position: relative;
+}
+
+.top10 ul {
+    padding-left: 14px;
+}
+
+.top10 li {
+    float: left;
+    margin: 0 21px 0 21px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.top10 a {
+    color: black;
+    text-decoration: none;
+}
+
+.category_left {
+    float: left;
+    width: 900px;
+}
+
+.adv_right {
+    width: 280px;
+    float: right;
+}
+
+.big_site {
+    background-color: white;
+}
+
+.big_site li {
+    float: left;
+    width: 142px;
+}
+
+.fenlei{
+    background-color: white;
+}
+
+.fenlei_in {
+    margin: 10px 0;
+}
+
+.fenlei li {
+    float: left;
+    width: 124px;
+    padding-left: 16px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.found {
+    background-color: white;
+}
+
+.found dl {
+    height: 30px;
+}
+
+.found strong {
+    width: 53px;
+    padding-left: 23px;
+    text-align: left;
+}
+
+.found dt {
+    float: left;
+}
+
+.found dl li {
+    width: 126px;
+    float: left;
+}
+
+.cat1 {
+    background-color: white;
+    margin-top: 10px;
+}
+
+.cat1 h2 {
+    background-color: #fff9e5;
+}
+
+.cate_link {
+    height: 30px;
+    line-height: 30px;
+}
+
+.recom {
+    background-color: white;
+}
+
+.box1 {
+    height: 292px;
+}
+
+.box2 {
+    height: 240px;
+}
+
+.box3 {
+    height: 267px;
+}
+
+.module_t {
+    height: 40px;
+    line-height: 40px;
+    margin: 0 0 15px;
+}
+
+.module_bd {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.game {
+    position: relative;
+    float: left;
+    width: 1160px;
+    height: 250px;
+    background-color: white;
+}
+
+.video {
+    position: relative;
+    float: left;
+    width: 1160px;
+    height: 250px;
+    background-color: white;
+}
+
+.f {
+    position: relative;
+    float: left;
+    width: 1160px;
+    height: 250px;
+    background-color: white;
+}
+
+.layout_game {
+    height: 25px;
+}
+
+.layout_video {
+    height: 260px;
+}
+
+.footer {
+    height: 42px;
+    background: #8c8c8c;
+    position: relative;
+}
+
+.footer_center {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_left {
+    float: left;
+    margin-left: 20px;
+    line-height: 42px;
+    color: white;
+}
+
+.footer_outer{
+    height: 980px;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
+.bottom_bd {
+    width: 1190px;
+    margin-right: auto;
+    margin-right: auto;
+}
+
+.mod {
+    border: 1px solid #e4e8ee;
+}
